@@ -2,26 +2,31 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    
+}
+body{
+    background-color: #F5F8FF;
 }
 header {
     background-image: url(Assets/Hero-bg.png);
     background-repeat: no-repeat;
     height: 500px;
     margin: auto;
-    width: 80%;
+    width: 100%;
 }
 nav{
     display: flex;
     justify-content: space-between;
     width: 80%;
     align-items: center;
-    padding: 20px 10px;
+    padding: 30px 10px;
     margin: auto;
     
 }
 nav h1{
     display: inline-block;
     font-weight: 900;
+    font-size: 2em;
       letter-spacing: 0%;
       color: #4A4AFF; 
       font-family: Arial, sans-serif;
@@ -29,7 +34,7 @@ nav h1{
 }
 nav button{
     background-color: #4A4AFF;
-    padding: 8px 16px;
+    padding: 10px 20px;
     border-radius: 10px;
     border: none;
     color: white;
@@ -59,19 +64,18 @@ nav button{
     justify-content: space-around;
     align-items: center;
     margin-top: 100px;
-}
-.Action{
     width: 80%;
     margin: auto;
     margin-top: 100px;
+    
 }
 .Action .coment{
     padding: 20px;
 }
 .Action .coment h1{
-    font-weight: 900;
-      letter-spacing: 0%;
-      font-family: Arial, sans-serif;
+        font-weight: 900;
+        letter-spacing: 0%;
+        font-family: Arial, sans-serif;
       margin-bottom: 20px;
 }
 .Action .coment p{
@@ -91,3 +95,42 @@ nav button{
     border: none;
     color: white;
 }
+.Productive{
+    width: 80%;
+    align-items: center;
+    margin: auto;
+    margin-top: 100px;
+}
+.main{
+    width: 80%;
+    align-items: center;
+    text-align: center;
+    background-color: #E6E6FF;
+    border-radius: 10px;
+    margin: auto;
+}
+.main h1{
+        font-weight: 900;
+        letter-spacing: 0%;
+        font-family: Arial, sans-serif;
+        color: #4A4AFF; 
+        font-size: 2em;
+}
+.main h2{
+        font-weight: 900;
+      letter-spacing: 0%;
+      font-family: Arial, sans-serif;
+      padding-top: 30px;
+}
+.main p{
+    font-family: Arial, sans-serif;
+    color: #555265;
+}
+.main .Child{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    padding-bottom: 20px;
+}
+
+
